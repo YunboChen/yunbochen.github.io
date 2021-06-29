@@ -6,5 +6,11 @@ module.exports = {
   subSidebar:'auto',
   nav:[
     { text: '首页', link: '/' },
+    { 
+      text:'笔记', 
+      items:[
+        { text:'git操作', link:'/notes/git' }
+      ] 
+    }
   ]
 }
