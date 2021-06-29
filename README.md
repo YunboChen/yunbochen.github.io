@@ -16,6 +16,13 @@ npm run dovs:dev
 npm run docs:build
 ```
 
+## 自动生成markdown文件
+`/utils/template.md`为front matter模板用于自动生成含有front matter的markdown文件
+
+```bash
+npm run create /${文件目录}/${文件名}（文件目录/docs不应包含在内）
+```
+
 ## 提交代码
 ```bash
 git add .
@@ -35,3 +42,5 @@ ci：主要目的是修改项目继续集成流程(例如 Travis，Jenkins，Git
 chore：不属于以上类型的其他类型，比如构建流程, 依赖管理
 revert：回滚某个更早之前的提交
 ```
+
+

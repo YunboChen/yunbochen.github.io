@@ -1,5 +1,12 @@
+const themeConfig = require('./themeConfig')
+
 module.exports = {
   base:'/',
-  title: 'Hello VuePress',
-  description: 'Just playing around'
+  title: "Rainbow's Blog",
+  description: "Welcome Rainbow's Blog",
+  theme: 'reco',
+  themeConfig,
+  markdown: {
+    lineNumbers: true, // 代码行号
+  },
 }
