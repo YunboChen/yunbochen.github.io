@@ -1,8 +1,8 @@
 ---
-title: Git操作
-date: '2021-06-29 16:27:33'
+title: Git基础操作
+date: 2021-06-29 16:27:33
 author: Rainbow
-permalink: /notes/git
+permalink: /notes/git/git
 categories:
   - 笔记
 tags:
