@@ -9,19 +9,11 @@ module.exports = {
     { 
       text:'笔记', 
       items:[
-        { text:'git相关笔记',
-          items:[
-            {
-              text:'Git基础操作',
-              link:'/notes/git/git' 
-            },
-            {
-              text:'Git提交规范',
-              link:'/notes/git/git-commit-standard' 
-            }
-          ]
+        { 
+          text:'Git知识',
+          link:'/tag/git/',
         }
       ] 
     }
-  ]
+  ],
 }
