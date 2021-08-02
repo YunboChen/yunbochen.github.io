@@ -4,7 +4,7 @@ date: '2021-08-02 10:01:19'
 author: Rainbow
 permalink: /notes/node/web-crawler
 categories:
-  - node
+  - 笔记
 tags:
   - node
 ---
