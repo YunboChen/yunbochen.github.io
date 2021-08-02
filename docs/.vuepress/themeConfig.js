@@ -10,8 +10,12 @@ module.exports = {
       text:'笔记', 
       items:[
         { 
-          text:'Git知识',
+          text:'Git',
           link:'/tag/git/',
+        },
+        { 
+          text:'Node.js',
+          link:'/tag/node/',
         }
       ] 
     }
