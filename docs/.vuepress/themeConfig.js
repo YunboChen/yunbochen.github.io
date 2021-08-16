@@ -16,6 +16,10 @@ module.exports = {
         { 
           text:'Node.js',
           link:'/tag/node/',
+        },
+        {
+          text:'Vue',
+          link:'/tag/vue/',
         }
       ] 
     }
