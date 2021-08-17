@@ -22,6 +22,15 @@ module.exports = {
           link:'/tag/vue/',
         }
       ] 
+    },
+    { 
+      text:'学习', 
+      items:[
+        { 
+          text:'TypeScript',
+          link:'/tag/typescript/',
+        },
+      ] 
     }
   ],
 }
