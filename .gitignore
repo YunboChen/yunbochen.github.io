@@ -2,6 +2,8 @@
 node_modules
 dist
 .history
+db.json
+public
 
 
 # local env files
