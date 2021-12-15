@@ -1,0 +1,143 @@
+############################### Navigation Bar ############################### > start
+navbar:
+  logo: # choose [img] or [icon + title]
+    img: ''
+    icon:
+    title: Rainbow's Blog
+  menu:
+    - name: 博客
+      icon: fas fa-rss
+      url: /
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fas fa-tags
+      url: tags/
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+    - name: 切换主题 # 可自定义
+      icon: fas fa-moon # 可自定义
+      toggle: darkmode
+  search: Search...   # Search bar placeholder
+############################### Navigation Bar ############################### > end
+############################### Site Footer ############################### > start
+site_footer:
+  # layout of footer: [aplayer, social, license, info, copyright]
+  layout: [aplayer, info, br, hello]
+  # site source
+  source: https://github.com/volantis-x/volantis-docs/
+  social:
+    - icon: fab fa-github
+      url: https://github.com/YunboChen
+  br: '<br>'
+  hello: '[今天摸鱼了吗😈](/)'
+############################### Site Footer ############################### > end
+############################### Cover ############################### > start
+cover:
+  height_scheme: full # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  display:
+    home: true
+    archive: true
+    others: false # can be written in front-matter 'cover: true'
+  background: https://picsum.photos/1920/1200
+  # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
+  logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
+  title: 生命不息，摸鱼不止
+  subtitle: ''
+  search: 生命不息，摸鱼不止 # search bar placeholder
+  features:
+    - name: 博客
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      url: /
+    - name: 分类
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4c1.svg
+      url: /categories/
+    - name: 标签
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
+      url: /tags/
+    - name: 归档
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f587.svg
+      url: /archives/
+    - name: 关于
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
+      url: /about/
+############################### Cover ############################### > end
+############################### custom_css ############################### > start
+custom_css:
+  cursor:
+    enable: true
+    text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png
+############################### custom_css ############################### > end
+############################### Plugins ############################### > start
+plugins:
+  darkmode:
+    enable: true
+############################### Plugins ############################### > end
+############################### Rightmenu ############################### > start
+rightmenu:
+  enable: true
+  faicon: fa  # 公共图标类型 fa fal fas fad
+  # hr: 分割线, music: 音乐控制器
+  layout: [home, hr, github, hr, darkmode, reading, music]
+  darkmode:        # 需开启 plugins.darkmodejs
+    name: 暗黑模式
+    icon: fa fa-moon
+  reading:
+    name: 阅读模式
+    icon: fa fa-book-open
+  music:           # 当设定全局音乐播放器时，是否一直显示音乐控制菜单。false：仅当音乐播放时启用
+    alwaysShow: true
+  github:
+    name: 网站源码
+    icon: fab fa-github
+    url: https://github.com/YunboChen/yunbochen.github.io
+############################### Rightmenu ############################### > end
+
+############################### sidebar ############################### > start
+sidebar:
+  widget_library:
+    blogger:
+      class: blogger
+      display: [desktop, mobile] # [desktop, mobile]
+      avatar: /images/favicon.jpg
+      title: Rainbow
+      subtitle:
+      jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social: false
+############################### sidebar ############################### > end
+
+# ############################### comments ############################### > start
+comments:
+  service: waline
+  waline:
+    js: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
+    path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是waline的问题
+    placeholder: 快来评论吧~  # 评论占位提示
+    imageHosting:  # 图床api（默认使用去不图床）
+    # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder uploadImage] 选项
+    meta: [nick,mail,link] # waline comment header info
+    requiredFields: [nick,mail]
+    serverURL: https://blog-comments-lgehsr2xu-yunbochen.vercel.app # Waline 的服务端地址（必填）
+    avatar: robohash # gravatar style https://waline.js.org/client/basic.html#avatar
+    avatarCDN: #https://sdn.geekzu.org/avatar/
+    pageSize: 10 # 评论每页显示数量
+    lang: zh-CN
+    visitor: true
+# ############################### comments ############################### > end
