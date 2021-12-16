@@ -5,7 +5,7 @@
   "main": "index.js",
   "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo clean & hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
