@@ -28,7 +28,7 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^4.0.0",
+    "hexo-renderer-markdown-it": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "husky": "^6.0.0",
@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "hexo-generator-json-content": "^4.2.3",
-    "hexo-theme-volantis": "^5.0.0-rc.1"
+    "hexo-theme-volantis": "^5.0.0-rc.1",
+    "markdown-it-emoji": "^2.0.0"
   }
 }
