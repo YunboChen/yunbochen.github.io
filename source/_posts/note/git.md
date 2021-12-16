@@ -15,9 +15,9 @@ tags:
 
 {% endnoteblock %}
 
-# 前期准备（MacOS）
+## 前期准备（MacOS）
 
-## 生成SSH密钥并设置
+### 生成SSH密钥并设置
 
 输入如下命令来生成 `ssh key`：
 
@@ -39,15 +39,15 @@ cat ~/.ssh/id_rsa.pub
 
 将上述的 `ssh key` 配置到 [`Github`](https://github.com/) 或者 [`码云`](https://gitee.com/)
 
-## 多个ssh key
+### 多个ssh key
 
 {% link 配置多个ssh key :: https://gitee.com/help/articles/4229#article-header %}
 
 
 
-# Git基础操作
+## Git基础操作
 
-## 仓库基本管理
+### 仓库基本管理
 
 **初始化一个 `Git` 仓库**
 
@@ -89,7 +89,7 @@ $ git pull git地址
 # 若本地已关联了远程仓库
 $ git pull 仓库别名 分支
 ```
-## 远程仓库管理
+### 远程仓库管理
 
 **修改仓库名**
 
@@ -128,7 +128,7 @@ git remote -v
 git remote set-url origin 仓库地址
 ```
 
-## 仓库分支操作
+### 仓库分支操作
 
 **查看分支**
 
@@ -192,16 +192,16 @@ $ git push origin --delete 分支名字
 # 或者
 $ git branch -dr [仓库名/分支名字]
 ```
-## 提交规范
+### 提交规范
 
-### 主要 type
+#### 主要 type
 
 |  类型      |  说明  |
 | :----     | :----  |
 |  feat     |  新增一个功能 |
 |  fix      |  修复一个Bug |
 
-### 特殊 type
+#### 特殊 type
 
 |  类型      |  说明  |
 | :----     | :----  |
@@ -211,7 +211,7 @@ $ git branch -dr [仓库名/分支名字]
 |  refactor |  代码重构 |
 |  revert   |  代码回退 |
 
-### 一般不使用 type
+#### 一般不使用 type
 
 |  类型      |  说明  |
 | :----     | :----  |
@@ -220,13 +220,13 @@ $ git branch -dr [仓库名/分支名字]
 |  ci       |  更改持续集成软件的配置文件和package中的scripts命令，例如scopes: Travis, Circle等 |
 |  chore    |  变更构建流程或辅助工具 |
 
-## 其他
+### 其他
 
 {% link 更多 Git 操作 :: https://gitee.com/all-about-git %}
 
 
 
-# 常见问题
+## 常见问题
 1. 合并分支报无相关历史
 
 ```bash 合并分支报无相关历史
