@@ -3,7 +3,7 @@ navbar:
   logo: # choose [img] or [icon + title]
     img: ''
     icon:
-    title: Rainbow's Blog
+    title: Rainbow
   menu:
     - name: 博客
       icon: fas fa-rss
@@ -28,9 +28,6 @@ site_footer:
   layout: [aplayer, info, br, hello]
   # site source
   source: https://github.com/volantis-x/volantis-docs/
-  social:
-    - icon: fab fa-github
-      url: https://github.com/YunboChen
   br: '<br>'
   hello: '[今天摸鱼了吗😈](/)'
 ############################### Site Footer ############################### > end
@@ -45,8 +42,8 @@ cover:
   background: https://picsum.photos/1920/1200
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
-  title: 生命不息，摸鱼不止
-  subtitle: ''
+  title: 嘘，摸鱼呢
+  subtitle: 生命不息，摸鱼不止
   search: 生命不息，摸鱼不止 # search bar placeholder
   features:
     - name: 博客
@@ -76,7 +73,7 @@ article:
     # auto generate title if not exist
     auto_title: true # false, true
     # auto generate excerpt if not exist
-    auto_excerpt: true # false, true
+    auto_excerpt: false # false, true
     hide_excerpt: true
     author: true
     # show readmore button
@@ -104,8 +101,22 @@ custom_css:
 ############################### custom_css ############################### > end
 ############################### Plugins ############################### > start
 plugins:
+  globalJquery: true
   darkmode:
     enable: true
+  # typed.js
+  # https://github.com/mattboldt/typed.js
+  typed:
+    enable: true
+    startDelay: 300
+    typeSpeed: 150
+    loop: false
+    backSpeed: 50
+    js: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
+  titleAnime:
+    enable: true
+    js: https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js
+  iconfont: //at.alicdn.com/t/font_3025552_u93sdcj0lqa.css
 ############################### Plugins ############################### > end
 ############################### Rightmenu ############################### > start
 rightmenu:
@@ -134,10 +145,17 @@ sidebar:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
       avatar: /images/favicon.jpg
+      shape: circle
       title: Rainbow
       subtitle:
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
-      social: false
+      social: 
+        - icon: fas fa-blog
+          url: https://yunbochen.github.io/
+        - icon: fab fa-github
+          url: https://github.com/YunboChen
+        - icon: iconfont icon-gitee
+          url: https://gitee.com/Rainbow_Chen
 ############################### sidebar ############################### > end
 
 # ############################### comments ############################### > start

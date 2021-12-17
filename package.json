@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "hexo-generator-json-content": "^4.2.3",
-    "hexo-theme-volantis": "^5.0.0-rc.1",
     "markdown-it-emoji": "^2.0.0"
   }
 }
