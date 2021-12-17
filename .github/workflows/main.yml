@@ -27,7 +27,7 @@ jobs:
 
       # git clone theme
       - name: theme
-        run: git submodule update
+        run: git submodule update --init
       
       # Setup Node.js environment
       - name: Setup Node.js environment
