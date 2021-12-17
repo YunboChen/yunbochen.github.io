@@ -24,6 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@main
+
+      # git clone theme
+      - name: theme
+        run: git submodule update
       
       # Setup Node.js environment
       - name: Setup Node.js environment
