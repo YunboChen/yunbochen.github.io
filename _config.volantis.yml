@@ -43,7 +43,10 @@ cover:
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 嘘，摸鱼呢
-  subtitle: 生命不息，摸鱼不止
+  subtitle: 
+    - 每天的工作，从摸鱼开始
+    - 摸鱼吧，狗命最重要
+    - 生命不息，摸鱼不止
   search: 生命不息，摸鱼不止 # search bar placeholder
   features:
     - name: 博客
@@ -110,7 +113,7 @@ plugins:
     enable: true
     startDelay: 300
     typeSpeed: 150
-    loop: false
+    loop: true
     backSpeed: 50
     js: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
   titleAnime:
