@@ -112,3 +112,5 @@ markdown:
     - markdown-it-sub
     - markdown-it-abbr
     - markdown-it-emoji
+
+favicon: /images/favicon.png
