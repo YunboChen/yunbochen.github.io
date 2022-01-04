@@ -3,9 +3,10 @@ title: 枚举类型 Enum
 date: 2021-12-09
 author: Rainbow
 categories:
-  - 学习
+  - [学习, typescript]
 tags:
   - typescript
+  - 进阶
 ---
 
 **枚举** 是一种组织相关值集合的方法。

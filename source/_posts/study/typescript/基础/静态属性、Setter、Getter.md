@@ -3,9 +3,10 @@ title: 静态属性、Setter、Getter
 date: 2021-12-07
 author: Rainbow
 categories:
-  - 学习
+  - [学习, typescript]
 tags:
   - typescript
+  - 基础
 ---
 
 ## 静态属性、Setter、Getter

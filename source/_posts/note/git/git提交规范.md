@@ -4,7 +4,7 @@ date: 2021-07-05 14:17:52
 author: Rainbow
 description: Git 常用的提交规范
 categories:
-  - 笔记
+  - [笔记, git]
 tags:
   - git
 ---

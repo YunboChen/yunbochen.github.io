@@ -3,9 +3,10 @@ title: import 对应的模块化
 date: 2021-12-10
 author: Rainbow
 categories:
-  - 学习
+  - [学习, typescript]
 tags:
   - typescript
+  - 进阶
 ---
 
 ## 声明文件 `*.d.ts`

@@ -3,9 +3,10 @@ title: interface 接口
 date: 2021-12-06
 author: Rainbow
 categories:
-  - 学习
+  - [学习, typescript]
 tags:
   - typescript
+  - 基础
 ---
 
 >`interface` 是一系列抽象方法的声明，是一些方法特征的集合，这些方法都应该是抽象的，需要由具体的类去实现，然后第三方就可以通过这组抽象方法调用，让具体的类执行具体的方法。

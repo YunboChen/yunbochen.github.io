@@ -3,9 +3,10 @@ title: 命名空间 namespace
 date: 2021-12-10
 author: Rainbow
 categories:
-  - 学习
+  - [学习, typescript]
 tags:
   - typescript
+  - 进阶
 ---
 
 **命名空间** 可以很好的解决重名的问题。

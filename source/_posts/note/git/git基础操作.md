@@ -4,7 +4,7 @@ date: 2021-06-29 16:27:33
 author: Rainbow
 description: Git 的一些基础操作及配置说明
 categories:
-  - 笔记
+  - [笔记, git]
 tags:
   - git
 ---

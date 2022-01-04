@@ -3,9 +3,10 @@ title: tsconfig.json 配置说明
 date: 2021-12-08
 author: Rainbow
 categories:
-  - 学习
+  - [学习, typescript]
 tags:
   - typescript
+  - 进阶
 ---
 
 > `tsconfig.json` 是 `TypeScript` 编译器的配置文件，会根据该文件的配置进行对应的编译和检查。
